@@ -10,7 +10,7 @@ apt-get update
 #Upgrade packages
 apt-get -y full-upgrade
 #Dependancies install for compile kernel sources (dependancies compatibles for kernel 4.x)
-apt-get install debconf-utils dpkg-dev debhelper build-essential libncurses5-dev libelf-dev liblz4-tool bc libssl-dev xz-utils ncurses-dev git initramfs-tools dpkg-dev bin86 libglib2.0-dev libgtk2.0-dev libglade2-dev libqt4-dev pkg-config bison flex po-debconf xmlto gettext wget -y
+apt-get install debconf-utils dpkg-dev debhelper build-essential libncurses5-dev libelf-dev liblz4-tool bc libssl-dev xz-utils ncurses-dev git initramfs-tools dpkg-dev bin86 libglib2.0-dev libgtk2.0-dev libglade2-dev libqt4-dev pkg-config bison flex po-debconf xmlto gettext wget rsync -y
 #Download kernel-package packet for Debian distributions
 wget http://ftp.fr.debian.org/debian/pool/main/k/kernel-package/kernel-package_13.018+nmu1~bpo9+1_all.deb
 #Install deb packet after download 
